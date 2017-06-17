@@ -1,0 +1,14 @@
+#!/bin/zsh
+exec /usr/bin/Eterm							\
+	-0								\
+	-O								\
+	-f '#DEE3E3'							\
+	-t smoked_glass							\
+	-b gray20							\
+	-c '#EEF3F3'							\
+	-B next								\
+	--cursor-text-color '#EEF3F3'					\
+	--pointer-color '#EEF3F3'					\
+	--shade 65							\
+	--tint white							\
+	$@
